@@ -10,8 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:paddingTop="16dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingTop="16dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,24 +25,24 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:paddingBottom="16dp"
                 android:text="Team A"
-                android:textSize="14sp"
                 android:textColor="#616161"
-                android:fontFamily="sans-serif-medium"/>
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/team_a_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
                 android:padding="4dp"
-                android:text="0"
                 android:paddingBottom="24dp"
-                android:textSize="56sp"
+                android:text="0"
                 android:textColor="#000000"
-                android:fontFamily="sans-serif-light"/>
+                android:textSize="56sp" />
 
             <Button
                 android:layout_width="match_parent"
@@ -72,8 +72,7 @@
         <View
             android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:background="@android:color/darker_gray"
-            />
+            android:background="@android:color/darker_gray" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -87,24 +86,24 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
-                android:text="Team B"
-                android:textSize="14sp"
-                android:textColor="#616161"
                 android:paddingBottom="16dp"
-                android:fontFamily="sans-serif-medium"/>
+                android:text="Team B"
+                android:textColor="#616161"
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/team_b_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
                 android:padding="4dp"
-                android:text="0"
-                android:textSize="56sp"
-                android:textColor="#000000"
                 android:paddingBottom="24dp"
-                android:fontFamily="sans-serif-light"/>
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="56sp" />
 
             <Button
                 android:layout_width="match_parent"
